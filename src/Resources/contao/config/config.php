@@ -3,7 +3,7 @@
 /**
  * Contao Open Source CMS
  *
- * Copyright (c) 2005-2017 Jonny Spitzner
+ * Copyright (c) 2005-2023 Jonny Spitzner
  *
  * @license LGPL-3.0+
  */
@@ -19,13 +19,15 @@
 //	)
 //));
 //
-///**
-// * Style sheet
-// */
-//if (TL_MODE == 'BE')
-//{
-//	$GLOBALS['TL_CSS'][] = 'bundles/jonnysppannorama/pannorama.css|static';
-//}
+
+/**
+ * Style sheet
+ */
+if (TL_MODE == 'BE')
+{
+	//$GLOBALS['TL_CSS'][] = 'bundles/jonnysppannorama/pannorama.css|static';
+	$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/jonnyspmermaid/mermaid.min.js';
+}
 
 
 /**

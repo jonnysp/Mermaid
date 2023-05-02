@@ -11,8 +11,8 @@ class MermaidViewer extends \ContentElement
 
 			$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/jonnyspmermaid/mermaid.min.js';
 
-//			$container = System::getContainer();
-//			$rootDir = $container->getParameter('kernel.project_dir');
+			$container = System::getContainer();
+			$rootDir = $container->getParameter('kernel.project_dir');
 //
 //			$objPannorama = \PannoramaModel::findByPK($this->pannoramaviewer);
 //
