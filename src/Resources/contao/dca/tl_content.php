@@ -1,6 +1,6 @@
 <?php
 
-$GLOBALS['TL_DCA']['tl_content']['palettes']['mermaid_viewer'] = '{type_legend},type;{mermaid_legend};{protected_legend:hide},protected;{expert_legend:hide},cssID,space;{invisible_legend:hide},invisible,start,stop';
+$GLOBALS['TL_DCA']['tl_content']['palettes']['mermaid_viewer'] = '{type_legend},type;{mermaid_legend},code;{expert_legend:hide},cssID,space';
 
 //$GLOBALS['TL_DCA']['tl_content']['fields']['pannoramaviewer'] = array
 //(

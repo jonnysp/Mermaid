@@ -11,8 +11,17 @@ class MermaidViewer extends \ContentElement
 
 			$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/jonnyspmermaid/mermaid.min.js';
 
-			$container = System::getContainer();
-			$rootDir = $container->getParameter('kernel.project_dir');
+			   $objTemplate = new \BackendTemplate('be_wildcard');
+			   //$objTemplate->title =  $objPannorama->title;
+			   $objTemplate->wildcard = '  <pre class="mermaid">'.$this->code.'</pre>';
+
+
+				return $objTemplate->parse();	
+
+			//print_r($this->html);
+
+//			$container = System::getContainer();
+//			$rootDir = $container->getParameter('kernel.project_dir');
 //
 //			$objPannorama = \PannoramaModel::findByPK($this->pannoramaviewer);
 //
@@ -184,6 +193,7 @@ class MermaidViewer extends \ContentElement
 
 
 		$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/jonnyspmermaid/mermaid.min.js';
+		$this->Template->mermaid = $this->code;
 
 //		$container = System::getContainer();
 //		$rootDir = $container->getParameter('kernel.project_dir');
