@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jonnysp\\Pannorama\\": "src/"
+            "Jonnysp\\Mermaid\\": "src/"
         },
         "classmap": [
             "src/Resources/contao/"
