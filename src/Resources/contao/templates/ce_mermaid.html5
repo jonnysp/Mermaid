@@ -1,0 +1,10 @@
+
+<div class="<?= $this->class; ?>" <?= $this->cssID; ?> <?php if ($this->style): ?> style="<?= $this->style; ?>"<?php endif; ?>>
+	<div id="mermaid_<?= $this->id; ?>"></div>
+	<script>
+		mermaid.min.js
+	</script>
+</div>
+
+
+
