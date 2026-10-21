@@ -1,2 +1,2 @@
 # Mermaid
-Adds Mermaid Diagramms to Contao 4
+Adds Mermaid Diagramms to Contao
