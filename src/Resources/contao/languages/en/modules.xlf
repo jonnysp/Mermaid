@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="plaintext" original="src/Resources/contao/languages/en/modules.xlf" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="CTE.mermaid_viewer.0">
+        <source>Mermaid Diagram</source>
+        <target>Mermaid Diagram</target>
+      </trans-unit>
+      <trans-unit id="CTE.mermaid_viewer.1">
+        <source>Render responsive diagrams with Mermaid.</source>
+        <target>Render responsive diagrams with Mermaid.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

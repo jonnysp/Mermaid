@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="plaintext" original="src/Resources/contao/languages/de/tl_content.xlf" source-language="en" target-language="de">
+    <body>
+      <!-- Feld-Übersetzung -->
+      <trans-unit id="tl_content.mermaid_viewer.0">
+        <source>Mermaid Diagram</source>
+        <target>Mermaid Diagramm</target>
+      </trans-unit>
+      <trans-unit id="tl_content.mermaid_viewer.1">
+        <source>Help &lt;a href="https://mermaid.js.org" target="_blank"&gt;https://mermaid.js.org&lt;/a&gt;</source>
+        <target>Hilfe &lt;a href="https://mermaid.js.org" target="_blank"&gt;https://mermaid.js.org&lt;/a&gt;</target>
+      </trans-unit>
+
+      <!-- Legenden-Übersetzung -->
+      <trans-unit id="tl_content.mermaid_legend">
+        <source>Mermaid Diagram</source>
+        <target>Mermaid Diagramm</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

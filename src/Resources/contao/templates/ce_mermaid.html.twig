@@ -1,0 +1,9 @@
+<div class="{{ class }}" {{cssID}} {% if style %} style="{{style}}" {% endif %}>
+	<pre class="mermaid">{{ mermaid|sanitize_html('contao')|insert_tag_html  }}</pre>
+</div>
+
+
+<script type="module">
+  import mermaid from '{{ asset('bundles/jonnyspmermaid/js/mermaid.esm.min.mjs') }}';
+  mermaid.initialize({ startOnLoad: true });
+</script>
