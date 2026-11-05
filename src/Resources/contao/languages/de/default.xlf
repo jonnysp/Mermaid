@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="plaintext" original="src/Resources/contao/languages/de/default.xlf" source-language="en" target-language="de">
+    <body>
+     
+     <trans-unit id="CTE.diagrams">
+        <source>Diagrams</source>
+        <target>Diagramme</target>
+      </trans-unit>
+
+      <!-- Titel und Beschreibung für das Mermaid-Inhaltselement -->
+      <trans-unit id="CTE.mermaid_viewer.0">
+        <source>Mermaid Diagram</source>
+        <target>Mermaid-Diagramm</target>
+      </trans-unit>
+      <trans-unit id="CTE.mermaid_viewer.1">
+        <source>Renders a Mermaid.js diagram.</source>
+        <target>Gibt ein Mermaid.js-Diagramm aus.</target>
+      </trans-unit>
+
+
+    </body>
+  </file>
+</xliff>
